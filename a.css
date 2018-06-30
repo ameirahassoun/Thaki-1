@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+h4{
+  color:white;
+}
+h4:hover{
+  color:black#004d00;
+}
+
+h3{
+  color:#799830;
+}
+h3:hover{
+  color:#33ff33
+;
+}
+/* Create two columns that floats next to each other */
+.column1 {
+    float: left;
+    width: 30%;
+    padding: 40px;
+    height: 800px; 
+    background-color:#799830;
+
+}
+
+.column2 {
+    float: left;
+    width: 70%;
+    padding: 40px;
+    height: 700px;
+    background-color:#ffffff;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#myProgress {
+      width: 100%;
+      background-color: #ddd;
+    }
+    #myBar {
+      width: 0%;
+      height: 30px;
+      background-color: #4CAF50;
+      text-align: center;
+      line-height: 30px;
+      color: white;
+      /* display: none */
+    }
+
+    /* =================== */
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0px;
+      font-family: 'segoe ui';
+    }
+    
+    .wrapper {
+      height: 550px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .buttons {
+      text-align: center;
+      position: relative;
+      top: 300px;
+    }
+    
+    #downBtn{
+      text-align: center;
+      padding: 20px 30px 20px 30px;
+      border: none;
+      width: 400px;
+      font-size: 21px;
+      border-radius: 8px;
+      background: #799830; 
+      color: #fff;
+    
+    }
+    
+    .alignDown{
+     position: relative;
+     bottom: -250px;
+     /*width: 100%;*/
+     right: 92px;
+     font-size: 21px;
+    }
+    
+    footer {
+      text-align: center;
+      width: 100%;
+      font-size: 0.8em;
+      bottom:0;
+      background-color: #799830;
+      position:absolute;
+    
+    }
+    
+    #downTxt{
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
+    .copyRight{
+      font-size: 12px;
+      font-weight: bold
+    }
+    
+    .nav {
+      height: 50px;
+      width: 100%;
+      background-color: #799830;
+      position: relative;
+    }
+    
+    .nav > .nav-header {
+      display: inline;
+    }
+    
+    .nav > .nav-header > .nav-title {
+      display: inline-block;
+      font-size: 22px;
+      color: #fff;
+      padding: 10px 10px 10px 10px;
+    }
+    
+    .nav > .nav-btn {
+      display: none;
+    }
+    
+    .nav > .nav-links {
+      display: inline;
+      float: right;
+      font-size: 18px;
+    }
+    
+    .nav > .nav-links > a {
+      display: inline-block;
+      padding: 13px 10px 13px 10px;
+      text-decoration: none;
+      color: #efefef;
+    }
+    
+    .nav > .nav-links > a:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    
+    .thakiLogo{
+      font-family: 'Roboto Slab', serif;
+      color: #799830;
+      font-size: 50px;
+      font-weight: bold;
+    
+    }
+    
+    @media (max-width:600px) {
+      .nav > .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+      }
+    }
